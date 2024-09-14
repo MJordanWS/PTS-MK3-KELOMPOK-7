@@ -73,4 +73,18 @@ h2 {
     font-size: 50px;
     margin: 10px 0px 10px;
     z-index: 3;
+    height: 300px;
+    margin-top: 200px;
+}
+
+.flex-container {
+    display:flex;
+    align-items:start;
+}
+
+.Asset {
+    width: 400px;
+    height: 500px;
+    align-items:first baseline;
+    margin-left: 60px; /* Beri jarak antara gambar dan teks */
 }
