@@ -2,29 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="css/home.css">
-    <title>JazCourse</title>
+    <title>Responsive Jazcourse</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <img class="Logo" src="assets/MK3 LOGO edited.png">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Pembelajaran</a></li>
-                <li><a href="#experience">Paket Belajar</a></li>
-            </ul>
-        </nav> 
-        <section id="home">
-            <div class="content">
-                <div class="flex-container">
-                    <h2>Selamat Datang di</h2>
-                    <h2>JazCourse</h2>
-                    <img class="Asset" src="assets/siswa.png">
+    <header>
+        <a href="#" class="logo"><img src="asset/MK3 LOGO edited.png"></a>
+
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#paketbelajar">Paket Belajar</a></li>
+            <li><a href="#pembelajaran">Pembelajaran</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome To</span>
+            <h1>Jazcourse</h1>
+            <h2>Platform Pembelajaran <br>Berbasis Web</h2><br>
+            <a href="#" class="btn">Berlangganan</a>
+        </div>
+        <div class="home-img">
+            <img src="asset/siswa.png" alt="">
+        </div>
+    </section>
+    <section class="paketbelajar" id="paketbelajar">
+        <div class="heading">
+            <span>Ayo Berlangganan Sekarang!</span>
+            <h1>Paket Belajar</h1>
+        </div>
+        <div class="paketbelajar-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="asset/background_paket_sd-removebg-preview (1).png" alt="">
                 </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>Paket SD</h2>
+                <span>Rp. 200.000,00</span>
+                <a href="#" class="btn">Berlangganan</a>
             </div>
-        </section>
-        
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="asset/asset smp (2).png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>Paket SMP</h2>
+                <span>Rp. 350.000,00</span>
+                <a href="#" class="btn">Berlangganan</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="asset/asset sma.png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>Paket SMA</h2>
+                <span>Rp. 500.000,00</span>
+                <a href="#" class="btn">Berlangganan</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="pembelajaran" id="pembelajaran">
+        <div class="heading">
+            <span>Ayo Berlangganan</span>
+            <h1>Belajar Murah dan Simple</h1>
+        </div>
+        <div class="container">
+            <div class="pembelajaran-img">
+                <img src="asset/aset mk3 (1).png" alt="">
+            </div>
+        </div>
+        <div class="pembelajaran-text">
+            <h2>Bahasa Indonesia</h2>
+            <p>Pembelajaran Bahasa Indonesia bertujuan untuk membantu siswa memahami dan menguasai kemampuan berbahasa secara lisan dan tulisan. Fokus pembelajaran mencakup empat aspek utama: mendengarkan, berbicara, membaca, dan menulis. Melalui pembelajaran ini, siswa diajak untuk memahami struktur bahasa, tata bahasa, kosakata, dan gaya bahasa yang digunakan dalam berbagai konteks, baik formal maupun informal. </p>
+            <a href="#" class="btn">Berlangganan</a>
+        </div>
+        <div class="container"></div>
+            <div class="pembelajaran-img">
+                <img src="asset/aset mk3 (2).png" alt="">
+            </div>
+        </div>
+        <div class="pembelajaran-text">
+            <h2>Bahasa Inggris</h2>
+            <p>Pembelajaran Bahasa Inggris dirancang untuk membantu siswa menguasai keterampilan berbahasa yang meliputi mendengarkan, berbicara, membaca, dan menulis. Bahasa Inggris, sebagai bahasa internasional, memberikan akses lebih luas kepada siswa untuk berkomunikasi di lingkungan global dan memahami berbagai sumber pengetahuan dari seluruh dunia.</p>
+            <a href="#" class="btn">Berlangganan</a>
+        </div>
+        <div class="container"></div>
+            <div class="pembelajaran-img">
+                <img src="asset/aset mk3 (3).png" alt="">
+            </div>
+        </div>
+        <div class="pembelajaran-text">
+            <h2>Matematika</h2>
+            <p>Pembelajaran Matematika bertujuan untuk membangun pemahaman logis, analitis, dan pemecahan masalah pada siswa. Melalui materi yang mencakup konsep-konsep dasar seperti aritmetika, aljabar, geometri, dan statistika, siswa dilatih untuk berpikir kritis dan menemukan solusi dari berbagai permasalahan numerik maupun abstrak.</p>
+            <a href="#" class="btn">Berlangganan</a>
+        </div>
+        <div class="container"></div>
+            <div class="pembelajaran-img">
+                <img src="asset/aset mk3 (4).png" alt="">
+            </div>
+        </div>
+        <div class="pembelajaran-text">
+            <h2>Ilmu Pengetahuan Alam</h2>
+            <p>Pembelajaran Ilmu Pengetahuan Alam (IPA) bertujuan untuk mengembangkan pemahaman siswa tentang fenomena alam serta prinsip-prinsip ilmiah yang mengatur kehidupan dan lingkungan. Materi pembelajaran IPA mencakup berbagai cabang ilmu, seperti fisika, kimia, biologi, dan astronomi, yang dikemas secara terpadu untuk memberikan gambaran menyeluruh tentang dunia alam.</p>
+            <a href="#" class="btn">Berlangganan</a>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="links"></div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Our Company</a>
+        </div>
+        <p class="copyright">© Jazcourse 2024. All right reserved.</p>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
